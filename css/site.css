@@ -146,3 +146,11 @@ h1{font-size:clamp(2.6rem,5.4vw,4.4rem)}h2{font-size:clamp(2rem,3.4vw,2.8rem)}
 .np-bar{background:var(--acc);color:#fff;font-size:1rem}.np-bar .wrap{justify-content:center;align-items:center;gap:6px 18px;padding-top:11px;padding-bottom:11px;text-align:center}
 .np-bar .wrap>span:first-child{display:inline}.np-bar a{margin-left:14px;white-space:nowrap}.np-bar strong{font-weight:700}
 .fbrand .badges img{height:38px}
+.locations{background:var(--bg2);padding:56px 0}.loc-title{text-align:center;margin-bottom:28px}
+.loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.loc-card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--acc);padding:32px 34px}
+.loc-card h3{font-size:2rem;margin-bottom:18px}.loc-card .ic{width:26px;height:26px;color:var(--acc);flex:none;margin-top:2px}
+.loc-addr,.loc-hours{display:flex;gap:12px;font-size:1.15rem;margin:0 0 14px;line-height:1.5}.loc-hours{color:var(--muted);font-size:1.05rem}
+.loc-phone{display:flex;gap:12px;align-items:center;font-size:2rem;font-weight:700;color:var(--pri);text-decoration:none;margin:4px 0 16px;font-family:var(--body)}
+.loc-phone .ic{width:30px;height:30px}.loc-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.loc-btns .btn{flex:1;justify-content:center;font-size:.9rem;padding:17px 20px}
+@media(max-width:900px){.loc-grid{grid-template-columns:1fr}.loc-card{padding:26px 22px}.loc-phone{font-size:1.7rem}}
