@@ -136,7 +136,7 @@ a.card{transition:.2s}a.card:hover{transform:translateY(-3px);box-shadow:var(--s
 /* ---- theme ---- */
 
 :root{--bg:#fff;--bg2:#f6f3ec;--ink:#1b2638;--muted:#5d6676;--line:#e6e0d2;--pri:#1c3557;--acc:#b8913b;--dark:#132640;
---head:'Cormorant Garamond',Georgia,serif;--body:Lato,system-ui,sans-serif;--hw:600;--radius:16px;--btn-radius:2px;--hero-tint:linear-gradient(90deg,rgba(15,28,48,.8),rgba(15,28,48,.22))}
+--head:'Cormorant Garamond',Georgia,serif;--body:Lato,system-ui,sans-serif;--hw:600;--radius:16px;--btn-radius:2px;--hero-tint:linear-gradient(90deg,rgba(15,28,48,.9) 0%,rgba(15,28,48,.72) 50%,rgba(15,28,48,.3) 100%)}
 h1{font-size:clamp(2.6rem,5.4vw,4.4rem)}h2{font-size:clamp(2rem,3.4vw,2.8rem)}
 .btn{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;padding:15px 28px}
 .btn-primary{background:var(--pri);color:#fff}.hero-photo .btn-primary{background:#fff;color:var(--pri)}.hero-photo .btn-primary:hover{background:var(--bg2);filter:none}
