@@ -148,7 +148,7 @@ h1{font-size:clamp(2.6rem,5.4vw,4.4rem)}h2{font-size:clamp(2rem,3.4vw,2.8rem)}
 .fbrand .badges img{height:38px}
 .car-shell{position:relative;padding:0 32px}.car-nav{position:absolute;inset:0;pointer-events:none}
 .car{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 72px)/4);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:10px 4px 28px;margin:-10px -4px 0}
-.car::-webkit-scrollbar{display:none}.car>*{scroll-snap-align:start}
+.car::-webkit-scrollbar{display:none}.car.auto{scroll-snap-type:none;scroll-behavior:auto}.car>*{scroll-snap-align:start}
 .car-b{position:absolute;top:calc(50% - 14px);transform:translateY(-50%);z-index:2;pointer-events:auto;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--pri);display:grid;place-items:center;cursor:pointer;transition:.2s}
 .car-b[data-dir="-1"]{left:-20px}.car-b[data-dir="1"]{right:-20px}.car-b:hover{background:var(--pri);color:#fff}.car-b[disabled]{opacity:.35;cursor:default;background:#fff;color:var(--pri)}
 #services .wrap{max-width:1500px}#services .sec-head{max-width:720px}.car .svc-img{aspect-ratio:4/3.2}.car .card-body{padding:24px 24px 26px}.car h3{font-size:1.45rem}
