@@ -145,7 +145,7 @@ h1{font-size:clamp(2.6rem,5.4vw,4.4rem)}h2{font-size:clamp(2rem,3.4vw,2.8rem)}
 .svc h3{font-size:1.5rem}.quote{background:#fff}
 .hero-photo.left{padding:170px 0 160px;background-position:center}.hero-photo.left .hero-box{max-width:640px}.hero-photo.left h1{font-size:clamp(2.8rem,5.6vw,4.8rem);line-height:1.02}.hero-photo.left .lead{font-size:1.2rem}
 @media(max-width:900px){.hero-photo.left{--hero-tint:linear-gradient(180deg,rgba(15,28,48,.55),rgba(15,28,48,.85))}}
-.member .card-body{text-align:center;padding:22px 20px 24px}.member h3{font-size:1.5rem;margin:0}
+.member .card-body{text-align:center;padding:22px 20px 24px}.member h3{font-size:1.5rem;margin:0 0 4px}.member .muted{margin:0}
 .np-bar{background:var(--dark);color:#fff;font-size:1rem}.np-bar .ic{color:var(--acc)}.np-bar .wrap{justify-content:center;align-items:center;gap:6px 18px;padding-top:11px;padding-bottom:11px;text-align:center}
 .np-bar .wrap>span:first-child{display:inline}.np-bar a{margin-left:14px;white-space:nowrap}.np-bar strong{font-weight:700}
 .fbrand .badges img{height:38px}
