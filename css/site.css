@@ -185,7 +185,7 @@ h1{font-size:clamp(2.6rem,5.4vw,4.4rem)}h2{font-size:clamp(2rem,3.4vw,2.8rem)}
 @media(max-width:900px){.svc-extra,.svc-steps{grid-template-columns:1fr}.svc-extra{padding:24px}.svc-row,.svc-row.rev{grid-template-columns:1fr}.svc-row .svc-row-media,.svc-row.rev .svc-row-media,.svc-row .svc-row-text,.svc-row.rev .svc-row-text{grid-column:1;grid-row:auto}}
 .locations{background:var(--bg2);padding:56px 0}.loc-title{text-align:center;margin-bottom:28px}
 .loc-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
-.loc-card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--pri);padding:32px 34px}
+.loc-card{background:#fff;border:1px solid var(--line);padding:32px 34px}
 .loc-card h3{font-size:2rem;margin-bottom:18px}.loc-card .ic{width:26px;height:26px;color:var(--pri);flex:none;margin-top:2px}
 .loc-addr,.loc-hours{display:flex;gap:12px;font-size:1.15rem;margin:0 0 14px;line-height:1.5}.loc-hours{color:var(--muted);font-size:1.05rem}
 .loc-phone{display:flex;gap:12px;align-items:center;font-size:2rem;font-weight:700;color:var(--pri);text-decoration:none;margin:4px 0 16px;font-family:var(--body)}
